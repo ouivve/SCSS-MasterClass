@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FLEXBOX #1.4</title>
+    <style>
+      .father {
+        display: flex;
+        height: 100vh;
+        justify-content: space-around;
+      }
+      .child {
+        width: 200px;
+        height: 200px;
+        background-color: peru;
+        color: white;
+      }
+      .child:nth-child(2) {
+        align-self: center;
+        /* default box order is 0 */
+        order: 2;
+      }
+      .child:nth-child(3) {
+        align-self: flex-end;
+        order: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="child">1</div>
+      <div class="child">2</div>
+      <div class="child">3</div>
+    </div>
+  </body>
+</html>
