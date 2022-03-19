@@ -9,8 +9,8 @@
 - [x] align-items
 - [x] align-self
 - [x] order
-- [ ] flex-wrap
-- [ ] align-content
+- [x] flex-wrap
+- [x] align-content
 - [ ] flex-grow
 - [ ] flex-shrink
 - [ ] flex-basis
