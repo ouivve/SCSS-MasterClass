@@ -10,6 +10,7 @@
 - [x] align-self
 - [x] order
 - [x] flex-wrap
+- [x] flex-flow
 - [x] align-content
 - [x] flex-grow
 - [x] flex-shrink
