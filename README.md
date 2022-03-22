@@ -37,9 +37,9 @@
 - [x] justify-content
 - [x] align-content
 - [x] place-content
-- [ ] justify-self
-- [ ] align-self
-- [ ] place-self
+- [x] justify-self
+- [x] align-self
+- [x] place-self
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
 - [ ] grid-auto-columns
