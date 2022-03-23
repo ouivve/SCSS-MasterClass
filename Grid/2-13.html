@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GRID #2.13</title>
+    <style>
+      .grid {
+        color: #fff;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(20px, max-content));
+        grid-auto-rows: 100px;
+        margin-bottom: 30px;
+      }
+      .item:nth-child(odd) {
+        background-color: #2ecc71;
+      }
+      .item:nth-child(even) {
+        background-color: #3498db;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item">This is a very long text</div>
+      <div class="item">This is a very longer longer text</div>
+      <div class="item">This is a very long text</div>
+      <div class="item">
+        Not long at all, or maybe, who knows? Maybe you know, love you.
+      </div>
+      <div class="item">This is a text</div>
+    </div>
+  </body>
+</html>
