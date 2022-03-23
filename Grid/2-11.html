@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>GRID #2.11</title>
+    <style>
+      .grid {
+        color: white;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(7, minmax(100px, 1fr));
+        grid-template-rows: repeat(4, 100px);
+        grid-auto-columns: 100px;
+      }
+      .item:nth-child(odd) {
+        background-color: #2ecc71;
+      }
+      .item:nth-child(even) {
+        background-color: #8e44ad;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+  </body>
+</html>
