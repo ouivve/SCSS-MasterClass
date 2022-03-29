@@ -2,6 +2,10 @@
 
 (S)CSS Layout Masterclass: Flexbox & Grid
 
+## Challenge:
+
+- [x] Day 02 | [Code](https://replit.com/@ouivve/ConsiderateAliceblueWatchdog-1#index.html) [Output](https://consideratealicebluewatchdog-1--ouivve.repl.co/)
+
 ## Flexbox:
 
 - [x] flex-direction
