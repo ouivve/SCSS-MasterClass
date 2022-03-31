@@ -5,6 +5,8 @@
 ## Challenge:
 
 - [x] Day 02 | [Code](https://replit.com/@ouivve/ConsiderateAliceblueWatchdog-1#index.html) [Output](https://consideratealicebluewatchdog-1--ouivve.repl.co/)
+- [x] Day 03
+- [x] Day04 | [Code](https://replit.com/@ouivve/Ostrich#index.html) [Output](https://ostrich.ouivve.repl.co/)
 
 ## Flexbox:
 
