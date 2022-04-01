@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-title {
+  font-size: 5vh;
+  font-weight: 600;
+}
+
+.items {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(100% / 6), max-content));
+  grid-auto-rows: 45vh;
+}
+.item-text,
+.item-img {
+  padding: 2rem;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.2;
+}
+.item-text h2 {
+  font-size: 1.5vw;
+}
+.item-text p {
+  font-size: 0.8vw;
+}
+
+.item-text:first-child {
+  background-color: #bfbda7;
+}
+.item-text:nth-child(3) {
+  background-color: #fe4814;
+}
+.item-text:nth-child(5) {
+  background-color: #847e96;
+}
+.item-text:nth-child(6) {
+  background-color: #cefd70;
+}
+.item-text:nth-child(7) {
+  background-color: #993433;
+}
+.item-text:nth-child(8) {
+  background-color: #3aaafa;
+}
+
+.item-text:nth-child(10) {
+  background-color: #41907a;
+}
+
+.item-text:last-child {
+  background-color: #e1c3e3;
+}
+
+.item-img {
+  background-size: cover;
+  background-position: center;
+}
+.item-img:nth-child(2) {
+  background-image: url("https://cdn.pixabay.com/photo/2022/01/29/11/02/cat-6977096__340.jpg");
+}
+.item-img:nth-child(4) {
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/24/14/42/animal-7089224__340.jpg");
+}
+.item-img:nth-child(9) {
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/27/11/23/cat-7094808__340.jpg");
+}
+.item-img:nth-child(11) {
+  background-image: url("https://cdn.pixabay.com/photo/2020/11/26/11/48/cat-5778777__340.jpg");
+}
